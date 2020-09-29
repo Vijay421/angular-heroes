@@ -1,5 +1,9 @@
 # AngularHeroes
 
+## This repo contains the Angular hero tutorial
+
+I'm using this to learn Angular.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
 
 ## Development server
