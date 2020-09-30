@@ -19,7 +19,7 @@ export default class HeroService {
 
 	/** GET heroes from the server */
 	getHeroes(): Observable<Hero[]> {
-		return this.http.get<Hero[]>(this.heroesUrl)
+		return this.http.get<Hero[]>(this.heroesUrl);
 	}
 
 	getHero(id: number): Observable<Hero> {
@@ -32,4 +32,4 @@ export default class HeroService {
 	private log(message: string) {
 		this.messageService.add(`HeroService: ${message}`);
 	}
-}
+}     
